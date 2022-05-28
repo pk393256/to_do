@@ -56,6 +56,10 @@ async function displayData() {
             button.style.height='30px';
             button.style.height='50px';
             // button.style.left='30px';
+            button.addEventListener('click',()=>{
+                localStorage.setItem('id',JSON.stringify(e.id));
+                window.location.href='./edit.html';
+            })
             output.append(div);
 
         })
