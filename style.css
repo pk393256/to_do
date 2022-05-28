@@ -3,3 +3,10 @@
     margin-top:100px;
     margin-left: 30%;
 }
+#container2{
+    margin-left:40%;
+}
+#container2>h3{
+    border:2px solid black;
+    border-width: 10px;
+}
